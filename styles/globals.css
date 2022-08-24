@@ -4,17 +4,123 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f5f5f5 !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: 0.5s !important;
+}
+
+a:hover {
+  color: #ffb900 !important;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.font-500 {
+  font-weight: 500;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+.font-22 {
+  font-size: 22px;
+}
+
+.add-cart-button {
+  width: 100%;
+  background-color: #ffb900;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+.text-yellow {
+  color: #ffb900 !important;
+}
+
+.categories-text {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.categories-text:hover {
+  color: #ffb900 !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.items-card {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.items-card:hover {
+  transform: scale(1.05);
+}
+
+.text-red {
+  color: #f40023;
+}
+
+.product-details-button {
+  background-color: #f40023;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.free-delivery-button {
+  background-color: #ffb900;
+  color: white;
+  border: none;
+  font-size: 10px;
+}
+
+/* 
+
+.
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -23,4 +129,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
